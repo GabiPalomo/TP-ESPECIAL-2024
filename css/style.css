@@ -1,3 +1,76 @@
-#menuList{
-  background-color: aquamarine;
+body {
+  background-color: rgb(250, 234, 214);
+}
+ul.menu-list{
+  display: contents;
+  list-style-type: none;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.2rem;
+}
+li a {
+  display: inline-table;
+  color: rgb(104, 197, 27);
+  text-decoration: none;
+  background-color: rgb(238, 246, 235);
+  border-radius: 10px;
+  padding: 10px;
+}
+a:hover {
+  transform: scale(1);
+  cursor: pointer;
+  font-weight: bolder;
+}
+li {
+  word-spacing: 120px;
+}
+.nav {
+  text-align: center;
+  padding: 20%;
+}
+.img-head {
+  background-image: url("/img/background.jpg");
+  border-radius: 10%;
+  opacity: 75%;
+}
+.titulo-principal {
+  display: grid;
+  text-align: center;
+  font-family: cursive, fantasy;
+  background-color: darkolivegreen;
+  border-radius: 15px;
+}
+h1.titulo-principal {
+  color: rgb(147, 165, 42);
+  padding-top: 55px;
+}
+.titulo-principal img {
+  margin-bottom: 43px;
+}
+span {
+  color: aquamarine;
+}
+/********************disp y reser************************************************/
+.cab {
+  display: grid;
+  width: 400px;
+  height: 300px;
+}
+.cabañas {
+  display: inline-flex;
+  list-style-type: none;
+}
+.cabañas img {
+  display: flex;
+  margin: 20px;
+}
+/*////////////////////////////////////////////////////////////////////*/
+@media only screen and (min-width: 660px) {
+  .quienes-somos {
+    flex-direction: row;
+  }
+
+  .main {
+    flex-grow: 4;
+  }
 }
