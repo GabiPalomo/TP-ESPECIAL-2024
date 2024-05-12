@@ -40,12 +40,11 @@ li {
   background-color: darkolivegreen;
   border-radius: 15px;
 }
-h1.titulo-principal {
-  color: rgb(147, 165, 42);
-  padding-top: 55px;
-}
-.titulo-principal img {
-  margin-bottom: 43px;
+/* h1.titulo-principal {
+  padding-top: 15px;
+} */
+.logo {
+  margin: auto;
 }
 span {
   color: aquamarine;
