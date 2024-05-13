@@ -1,5 +1,14 @@
 body {
+  margin: 5px;
   background-color: rgb(250, 234, 214);
+}
+.logo {
+  height: 50px;
+  width: 50px;
+  float: left;
+}
+.logo:hover {
+  cursor: pointer;
 }
 ul.menu-list{
   display: contents;
@@ -8,13 +17,15 @@ ul.menu-list{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 1.2rem;
 }
-li a {
+a {
   display: inline-table;
   color: rgb(104, 197, 27);
   text-decoration: none;
   background-color: rgb(238, 246, 235);
   border-radius: 10px;
-  padding: 10px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid;;
 }
 a:hover {
   transform: scale(1);
@@ -22,11 +33,28 @@ a:hover {
   font-weight: bolder;
 }
 li {
-  word-spacing: 120px;
+  word-spacing: 3px;
+  margin: 0 10px;
 }
-.nav {
+li h3 {
   text-align: center;
-  padding: 20%;
+  background-color: rgba(2, 84, 8, 0.196);
+}
+.busqueda {
+  margin: 5px;
+  text-align: center;
+}
+.busc {
+  border-radius: 20px;
+  background-color: bisque;
+}
+#busc {
+  border: 1.9px solid;
+}
+.busc:hover {
+  cursor: pointer;
+  font-family: cursive;
+  background-color: yellowgreen;
 }
 .img-head {
   background-image: url("/img/background.jpg");
@@ -43,25 +71,17 @@ li {
 /* h1.titulo-principal {
   padding-top: 15px;
 } */
-.logo {
-  margin: auto;
-}
 span {
   color: aquamarine;
 }
 /********************disp y reser************************************************/
 .cab {
-  display: grid;
   width: 400px;
   height: 300px;
 }
-.cabañas {
-  display: inline-flex;
+.cab-list {
   list-style-type: none;
-}
-.cabañas img {
   display: flex;
-  margin: 20px;
 }
 /*////////////////////////////////////////////////////////////////////*/
 @media only screen and (min-width: 660px) {
