@@ -94,4 +94,7 @@ span {
   .main {
     flex-grow: 4;
   }
+  .sidebar {
+    flex-grow: 1;
+  }
 }
