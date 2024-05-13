@@ -10,7 +10,7 @@ body {
 .logo:hover {
   cursor: pointer;
 }
-.menu-list{
+ul.menu-list{
   display: contents;
   list-style-type: none;
   text-align: center;
@@ -61,7 +61,7 @@ li h3 {
   height: 100%;
   background-image: url("/img/background.jpg");
   border-radius: 10%;
-  /* opacity: 80%; */
+  opacity: 75%;
 }
 .titulo-principal {
   width: 100%;
