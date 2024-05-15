@@ -1,0 +1,11 @@
+///disponibilidad y reservas///
+figcaption y listas sacadas de disponibilidad y reservas.html
+eliminada la barra de busqueda que había puesto al cuete
+logo img puesto dentro de un <div> para poder acomodarlo al medio y con fondo, no le podía si no
+<h1> sin <div>
+///index///
+class="titulo-principal" cambiado por class="titulo"
+imágenes mas livianas
+<aside> mas chico a dos <li> y puestos al medio de las imágenes
+algunos estilos modificados
+lo que hace que esté muy pesado el archivo es la carpeta .git, pesa mas de 7mb, el viernes pienso ir a la clase esa de consulta a preguntar como acomodar eso

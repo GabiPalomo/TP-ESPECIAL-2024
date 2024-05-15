@@ -2,10 +2,17 @@ body {
   margin: 5px;
   background-color: rgb(250, 234, 214);
 }
-.logo {
-  height: 50px;
-  width: 50px;
-  float: left;
+div img.logo {
+  margin-left: 40%;
+  background-color: darkolivegreen;
+  border-radius: 50px;
+}
+.logo { /*cambio de tamaño y ubicación*/
+  display: block;
+  height: 250px;
+  width: 250px;
+  position: relative;
+  justify-content: center;
 }
 .logo:hover {
   cursor: pointer;
@@ -23,7 +30,7 @@ a {
   text-decoration: none;
   background-color: rgb(238, 246, 235);
   border-radius: 10px;
-  padding: 5px;
+  padding: 2px;
   margin: 10px;
   border: 1px solid;
   font-family: cursive;
@@ -34,21 +41,21 @@ a:hover {
   font-weight: bolder;
 }
 li {
-  word-spacing: 3px;
   margin: 0 10px;
 }
-li h3 {
+/* li h3 {
+  word-spacing: 3px;
   text-align: center;
   background-color: rgba(2, 84, 8, 0.196);
-}
-.img-head {
+} */
+/* .img-head {
   width: 100%;
   height: 100%;
   background-image: url("/img/background.jpg");
   border-radius: 10%;
-  /* opacity: 90%; */
-}
-.titulo-principal {
+  opacity: 90%;
+} */
+.titulo {
   width: 100%;
   height: 100%;
   display: block;
@@ -57,21 +64,20 @@ li h3 {
   background-color: darkolivegreen;
   border-radius: 15px;
 }
-.titulo-principal {
-  width: 100%;
-  height: 100%;
-}
 span {
   color: aquamarine;
 }
-.lateral {
+.lateral { /*nueva fuente, al medio de la imágen*/
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-top: 40px;
+  list-style-type: none; /*para sacarle el puntito negro*/
   display: inline;
   position: absolute;
   margin-top: 10px;
 }
 /********************disp y reser************************************************/
 .cabañas img {
-  width: 60%;
+  width: 30%; /*imagen achicada*/
   justify-content: center;
   border-radius: 5%;
   border: 2px solid black;
